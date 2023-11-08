@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "./agenda.dtd">
+
+<agenda>
+    <contancto>
+        <nombre>Antonio</nombre>
+        <apellido>Estudillo</apellido>
+        <apellido>Silva</apellido>
+        <telefono pais="México">+529212385389</telefono>
+        <email>jesusestudillo123@gmail.com</email>        
+        <direccion>
+            <calle>José Guadalupe Posadas</calle>
+            <numero>325</numero>
+            <cp>96523</cp>
+        </direccion>
+    </contancto>
+
+    <contancto>
+        <nombre>Antonio</nombre>
+        <apellido>Estudillo</apellido>
+        <apellido>Silva</apellido>
+        <telefono pais="México">+529212385389</telefono>
+        <email>jesusestudillo123@gmail.com</email>        
+        <direccion>
+            <calle>José Guadalupe Posadas</calle>
+            <numero>325</numero>
+            <cp>96523</cp>
+        </direccion>
+    </contancto>
+</agenda>
