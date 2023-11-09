@@ -2,6 +2,7 @@
 <!DOCTYPE agenda SYSTEM "./agenda.dtd" [
 <!ENTITY saludo "Bienvenido a la agenda de contactos.">] >
 
+<!--Contacto Personal con celular -->
 <agenda>
     <contancto>
         <nombre tipo="personal">Antonio</nombre>
@@ -16,6 +17,7 @@
         </direccion>
     </contancto>
 
+<!--Contacto Profesional con núm telefonico de trabajo -->
     <contancto>
         <nombre tipo="profesional">Alejandro</nombre>
         <apellido>Salvador</apellido>
@@ -28,7 +30,7 @@
             <cp>96891</cp>
         </direccion>
     </contancto>
-
+<!--Contacto Personal con celular -->
     <contancto>
         <nombre tipo="personal">Ulises</nombre>
         <apellido>Ramos</apellido>
