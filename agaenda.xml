@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE agenda SYSTEM "./agenda.dtd">
+<!DOCTYPE agenda SYSTEM "./agenda.dtd" [
+<!ENTITY saludo "Bienvenido a la agenda de contactos.">] >
 
 <agenda>
     <contancto>
-        <nombre>Antonio</nombre>
+        <nombre tipo="personal">Antonio</nombre>
         <apellido>Estudillo</apellido>
         <apellido>Silva</apellido>
-        <telefono pais="México">+529212385389</telefono>
-        <email>jesusestudillo123@gmail.com</email>        
+        <telefono tipo="celular" pais="México">+529212385389</telefono>
+        <email tipo="personal">jesusestudillo123@gmail.com</email>        
         <direccion>
             <calle>José Guadalupe Posadas</calle>
             <numero>325</numero>
@@ -16,15 +17,52 @@
     </contancto>
 
     <contancto>
-        <nombre>Antonio</nombre>
-        <apellido>Estudillo</apellido>
-        <apellido>Silva</apellido>
-        <telefono pais="México">+529212385389</telefono>
-        <email>jesusestudillo123@gmail.com</email>        
+        <nombre tipo="profesional">Alejandro</nombre>
+        <apellido>Salvador</apellido>
+        <apellido>Garduza</apellido>
+        <telefono tipo="trabajo" pais="México">+529216247892</telefono>
+        <email tipo="profesional">alejandrogar@uv.mx</email>        
         <direccion>
-            <calle>José Guadalupe Posadas</calle>
-            <numero>325</numero>
-            <cp>96523</cp>
+            <calle>Juan Escutia</calle>
+            <numero>652</numero>
+            <cp>96891</cp>
+        </direccion>
+    </contancto>
+
+    <contancto>
+        <nombre tipo="personal">Ulises</nombre>
+        <apellido>Ramos</apellido>
+        <apellido>Mexicano</apellido>
+        <telefono pais="Estados Unidos" tipo="casa">+18007823412</telefono>
+        <direccion>
+            <calle>Mariano Escobedo</calle>
+            <numero>523</numero>
+            <cp>901</cp>
+        </direccion>
+    </contancto>
+
+    <contancto>
+        <nombre tipo="personal">Javier</nombre>
+        <apellido>Chapa</apellido>
+        <apellido>García</apellido>
+        <telefono pais="México" tipo="celular">+529213457891</telefono>
+        <email tipo="personal">javierchapa10@hotmail.com</email>
+        <direccion>
+            <calle>Paseo de las palmas</calle>
+            <numero>871</numero>
+            <cp>612</cp>
+        </direccion>
+    </contancto>
+
+    <contancto>
+        <nombre tipo="profesional">Jonathan</nombre>
+        <apellido>H.Diaz</apellido>
+        <telefono pais="México" tipo="casa">+51923412761</telefono>
+        <email tipo="profesional">JonathanH10@outlook.com.mx</email>
+        <direccion>
+            <calle>Oriente 20</calle>
+            <numero>023</numero>
+            <cp>977</cp>
         </direccion>
     </contancto>
 </agenda>

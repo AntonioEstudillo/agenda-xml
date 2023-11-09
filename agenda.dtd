@@ -14,4 +14,8 @@
 <!ELEMENT numero (#PCDATA)>
 <!ELEMENT cp (#PCDATA)>
 
+
 <!ATTLIST telefono pais CDATA #REQUIRED > 
+<!ATTLIST nombre tipo (personal |  profesional) #REQUIRED>
+<!ATTLIST telefono tipo (casa |  celular | trabajo) #REQUIRED>
+<!ATTLIST email tipo (personal |  profesional) #REQUIRED>
